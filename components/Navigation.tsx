@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Clock, Heart, MessageCircle, Newspaper, Home } from "lucide-react";
+import { Clock, Heart, MessageCircle, Newspaper, Home, Gamepad2 } from "lucide-react";
 
 const navItems = [
   { href: "/", label: "首页", icon: Home },
@@ -10,6 +10,7 @@ const navItems = [
   { href: "/emotion", label: "情绪", icon: Heart },
   { href: "/complaints", label: "吐槽", icon: MessageCircle },
   { href: "/news", label: "吃瓜", icon: Newspaper },
+  { href: "/games", label: "游戏", icon: Gamepad2 },
 ];
 
 export default function Navigation() {

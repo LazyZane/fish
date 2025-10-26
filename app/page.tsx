@@ -137,7 +137,7 @@ export default function Home() {
       </div>
 
       {/* 快捷入口 */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         <Link href="/fish-timer">
           <div className="bg-white rounded-2xl shadow-lg p-8 hover:shadow-xl transition-all hover:-translate-y-1 cursor-pointer border-2 border-transparent hover:border-blue-300">
             <div className="text-5xl mb-4 text-center">⏱️</div>
@@ -164,6 +164,16 @@ export default function Home() {
             <h3 className="text-xl font-bold text-center mb-2">吐槽吧</h3>
             <p className="text-gray-600 text-center text-sm">
               匿名分享职场经历，避雷指南
+            </p>
+          </div>
+        </Link>
+
+        <Link href="/games">
+          <div className="bg-white rounded-2xl shadow-lg p-8 hover:shadow-xl transition-all hover:-translate-y-1 cursor-pointer border-2 border-transparent hover:border-green-300">
+            <div className="text-5xl mb-4 text-center">🎮</div>
+            <h3 className="text-xl font-bold text-center mb-2">游戏厅</h3>
+            <p className="text-gray-600 text-center text-sm">
+              解压小游戏，快速放松
             </p>
           </div>
         </Link>
