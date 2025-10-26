@@ -41,6 +41,15 @@ const games = [
     color: "from-green-400 to-emerald-400",
     time: "持续",
     difficulty: "休闲"
+  },
+  {
+    id: "sleep-aid",
+    name: "助眠中心",
+    emoji: "😴",
+    description: "白噪音+呼吸练习",
+    color: "from-indigo-400 to-purple-400",
+    time: "睡前",
+    difficulty: "治愈"
   }
 ];
 
