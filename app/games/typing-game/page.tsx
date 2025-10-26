@@ -3,7 +3,8 @@
 import { useState, useEffect, useRef } from "react";
 import { Home, Play, Pause, RotateCcw } from "lucide-react";
 import Link from "next/link";
-import { saveGameScore, generateId } from "@/lib/storage";
+import { saveGameScore } from "@/lib/gameStorage";
+import { generateId } from "@/lib/storage";
 
 const negativeWords = [
   "加班", "996", "007", "PUA", "内卷", "裁员", "画饼",

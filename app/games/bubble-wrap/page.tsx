@@ -3,7 +3,8 @@
 import { useState, useEffect } from "react";
 import { Volume2, VolumeX, RotateCcw, Home } from "lucide-react";
 import Link from "next/link";
-import { saveGameScore, generateId } from "@/lib/storage";
+import { saveGameScore } from "@/lib/gameStorage";
+import { generateId } from "@/lib/storage";
 
 const GRID_SIZE = 8; // 8x8网格
 

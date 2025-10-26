@@ -1,6 +1,7 @@
 // 游戏数据存储
 
 export interface GameScore {
+  id: string;
   gameId: string;
   gameName: string;
   score: number;

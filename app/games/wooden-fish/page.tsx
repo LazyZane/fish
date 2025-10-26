@@ -95,7 +95,7 @@ export default function WoodenFishGame() {
       <div className="flex items-center justify-between mb-6">
         <div>
           <h1 className="text-3xl font-bold text-gray-800 mb-1 flex items-center gap-2">
-            🪵 电子木鱼
+            🔔 电子木鱼
           </h1>
           <p className="text-gray-600">敲一敲，功德+1</p>
         </div>
@@ -142,7 +142,10 @@ export default function WoodenFishGame() {
 
           {/* 中心文字 */}
           <div className="absolute inset-0 flex flex-col items-center justify-center text-white">
-            <p className="text-6xl mb-2">🪵</p>
+            <div className="relative">
+              <p className="text-7xl mb-2">🔔</p>
+              <div className="absolute -top-2 -right-2 text-2xl animate-pulse">✨</div>
+            </div>
             <p className="text-2xl font-bold">敲我</p>
           </div>
 

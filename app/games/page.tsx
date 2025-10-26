@@ -18,7 +18,7 @@ const games = [
   {
     id: "wooden-fish",
     name: "敲木鱼",
-    emoji: "🪵",
+    emoji: "🔔",
     description: "电子木鱼，功德+1",
     color: "from-amber-400 to-orange-400",
     time: "随心",
